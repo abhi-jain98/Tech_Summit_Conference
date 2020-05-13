@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color:rgba(161, 220, 243, 0.877);">
+        <nav class="navbar navbar-expand-lg bg-dark justify-content-center navbar-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <form>
+              <h4 style="color:rgb(180, 21, 21)">Registration Form</h4>
+              <br>
+              <label for="sector">Select Sector:</label>
+                <select id="sector" name="sector">
+                  <option value="" disabled selected>--Select Sector--</option>
+                  <option value="It Technology">Information Technology</option>
+                  <option value="Bio Technology">Bio Technology</option>
+                </select>
+              <br>
+              <br>
+              <label for="information">Want Information About:</label>
+              <br>
+              <input type="checkbox" id="delegate" name="delegate" value="Attending As Delegate">
+              <label for="delegate"> Attending As Delegate</label><br>
+              <input type="checkbox" id="speaking" name="speaking" value="speaking">
+              <label for="speaking"> Speaking Opportunity</label><br>
+              <input type="checkbox" id="visitor" name="visitor" value="visitor">
+              <label for="visitor"> Visitor</label>
+          
+              <br>
+              <br>
+              <label for="fname">Name:</label>
+              <select id="fname">
+                <option value="" disabled selected>--Title--</option>
+                <option value="Mr">Mr.</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Mr">Mr.</option>
+                <option value="Ms">Ms</option>
+                <option value="Dr.">Dr.</option>
+                <option value="Prof">Prof.</option>
+              </select>
+              <input type="text" id="fname" name="fname" value="" placeholder="Name">
+              <br>
+              <br>
+              <label for="organisation">Organisation:</label>
+              <input type="text" id="organisation" name="organisation" value="">
+              <br>
+              <br>
+              <label for="designation">Designation:</label>
+              <input type="text" id="Designation" name="Designation" value="">
+              <br>
+              <br>
+              <label for="E-mail">E-mail Address:</label>
+              <input type="text" id="E-mail Address" name="E-mail Address" value="">
+              <br>
+              <br>
+              <label for="city">City:</label>
+              <input type="text" id="city" name="city" value="">
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </body>
+</html>
